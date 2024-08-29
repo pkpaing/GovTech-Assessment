@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4  # Updated to the latest version
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v3  # Updated to the latest version
 
       - name: Cache Docker layers
         uses: actions/cache@v3
@@ -28,12 +28,14 @@ jobs:
       - name: Build Docker image
         run: docker build -t myapp .
 
+      - name: Create output directory
+        run: mkdir -p output
+
       - name: Run Docker container with all flags
         run: docker run myapp --extract_restaurants --extract_restaurant_events --determine_rating_thresholds > output/output.txt
 
       - name: Convert output to HTML
         run: |
-          mkdir -p output
           echo "<html><body><pre>" > output/index.html
           cat output/output.txt >> output/index.html
           echo "</pre></body></html>" >> output/index.html
