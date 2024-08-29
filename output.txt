@@ -1,0 +1,34 @@
+     Restaurant Id  ...                                           Cuisines
+0         18649486  ...        Continental, Italian, North Indian, Chinese
+1           308322  ...  Continental, American, Asian, North Indian, Ch...
+2         18856789  ...          North Indian, Chinese, Continental, Asian
+3           307374  ...                                       Cafe, Juices
+4         18238278  ...    Finger Food, North Indian, Continental, Italian
+...            ...  ...                                                ...
+1275       7900186  ...                                            Mexican
+1276       7900182  ...                                               Thai
+1277       7900023  ...                               North Indian, Indian
+1278       7900490  ...                          European, Asian, Desserts
+1279       7900115  ...                                            Mexican
+
+[1280 rows x 7 columns]
+     Event Id Restaurant Id  ... Event Start Date Event End Date
+0      336644      18856789  ...       2019-04-10     2019-04-11
+1      336889      18382360  ...       2019-04-10     2019-04-10
+2      336888      18382360  ...       2019-04-10     2019-04-10
+3      336890      18382360  ...       2019-04-10     2019-04-10
+4      336894      18382360  ...       2019-04-12     2019-04-12
+..        ...           ...  ...              ...            ...
+121    305850       7001670  ...       2019-03-01     2019-04-30
+122    298162       7001670  ...       2019-04-05     2019-08-21
+123    329300      18981544  ...       2019-03-22     2019-04-30
+124    329301      18981544  ...       2019-03-22     2019-04-30
+125    335217      18680113  ...       2019-04-04     2019-06-01
+
+[126 rows x 7 columns]
+  Rating Text  Min. Rating  Max Rating  Mean Rating
+3        Poor          2.2         2.2     2.200000
+0     Average          2.5         3.4     3.193333
+2        Good          3.5         3.9     3.776224
+4   Very Good          4.0         4.4     4.215891
+1   Excellent          4.5         4.9     4.666207
