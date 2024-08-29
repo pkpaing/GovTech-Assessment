@@ -62,7 +62,7 @@ if __name__ == "__main__":
         
         if args.extract_restaurant_events:
             restaurant_events = data_processing.extract_restaurant_events(restaurant_data)
-            print("\n=== Restaurant Events ===")
+            print("\n=== Restaurant Events in April 2019===")
             print(restaurant_events.to_string(index=False))  # Print the whole DataFrame without truncation
         
         if args.determine_rating_thresholds:
