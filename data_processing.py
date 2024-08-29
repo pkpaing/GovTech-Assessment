@@ -30,7 +30,7 @@ def extract_restaurants(restaurant_data: dict, country_code_df: pd.DataFrame) ->
                 }
                 restaurants_list.append(restaurant_data)
             except:
-                print(f"Dummy entry - res_id: {restaurant_info['R']['res_id']}")
+                pass
 
 
     restaurants_df = pd.DataFrame(restaurants_list)
