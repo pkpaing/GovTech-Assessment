@@ -57,15 +57,15 @@ if __name__ == "__main__":
     else:
         if args.extract_restaurants:
             restaurants_df = data_processing.extract_restaurants(restaurant_data, country_code_data)
-            # Return or print the dataframe to be displayed
-            print(restaurants_df)
+            print("\n=== Restaurants Data ===")
+            print(restaurants_df.to_string(index=False))  # Print the whole DataFrame without truncation
         
         if args.extract_restaurant_events:
             restaurant_events = data_processing.extract_restaurant_events(restaurant_data)
-            # Return or print the dataframe to be displayed
-            print(restaurant_events)
+            print("\n=== Restaurant Events ===")
+            print(restaurant_events.to_string(index=False))  # Print the whole DataFrame without truncation
         
         if args.determine_rating_thresholds:
             rating_threshold = data_processing.determine_rating_thresholds(restaurant_data)
-            # Return or print the dataframe to be displayed
-            print(rating_threshold)
+            print("\n=== Rating Thresholds ===")
+            print(rating_threshold.to_string(index=False))  # Print the whole DataFrame without truncation
