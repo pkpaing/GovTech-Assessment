@@ -22,6 +22,10 @@ The GovTech Assessment project is designed to:
 
 The code is written in Python and utilizes pandas for data processing. Docker is used to containerize the application, and GitHub Actions is set up for continuous integration and deployment.
 
+For deployment using cloud services, a summary can be found in cloud_deployment.md and its corresponding architecture diagram in cloud_architecture_diagram.md.
+
+An architecture diagram for this project can be found in project_architecture_diagram.md
+
 ## Assumptions
 
 1. **Output Files for Tasks:**
