@@ -91,6 +91,10 @@ This section is intended for developers and users who want to run the applicatio
     ```bash
     python main.py --extract_restaurants --extract_restaurant_events --determine_rating_thresholds --local
     ```
+5. **Run unit tests using pytest:**
+    ```bash
+    pytest tests/
+    ```
 
 #### Method 2: Building the Docker Image and Running the Container (Suitable for Users)
 
