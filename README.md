@@ -145,4 +145,4 @@ This section is intended for users or developers who want to view the output on 
 4. **View the Output on GitHub Pages:**
    - After the workflow runs successfully, the output will be available at:
    ```text
-   **** (url will be in submission email)
+   https://pkpaing.github.io/GovTech-Assessment/
