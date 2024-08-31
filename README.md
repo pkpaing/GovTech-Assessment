@@ -63,7 +63,7 @@ Ensure that either Conda is installed and properly configured, or Docker is inst
 
 **Firstly, clone the Repository:**
     ```
-    git clone https://github.com/<your-username>/GovTech-Assessment.git
+    git clone https://github.com/pkpaing/GovTech-Assessment.git
     cd GovTech-Assessment
     ```
 
